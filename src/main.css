@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "microsoft yahei";
+}
+a{
+  text-decoration: none;
+}
+.top-nav{
+  height: 50px;
+  width: 100%;
+  background: #1b1c1d;
+}
+.container{
+  width: 58%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.logo{
+  float: left;
+}
+.logo img{
+  width: 30px;
+}
+.top-nav .center{
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+.top-nav .center .left {
+  margin-right: 50px;
+  margin-left: -25px;
+}
+.top-nav .center b {
+  margin-left: 20px;
+}
+
+
+
+.swiper-slide img{
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.download{
+  position: absolute;
+  top: 30%;
+  width: 300px;
+  margin-left: -150px;
+  text-align: center;
+  left: 50%;
+}
+.download .download-btn {
+  display: block;
+  border: 1px #fff solid;
+  width: 120px;
+  padding: 5px 0px;
+  font-size: 13px;
+  color: #a1a1a3;
+  text-align: center;
+  margin: 0 auto;
+  background: #202122;
+}
+.download .desc {
+  color: #6c6d6e;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.jd-action {
+  position: absolute;
+  top: 25%;
+  width: 300px;
+  margin-left: -150px;
+  text-align: center;
+  left: 50%;
+}
+.jd-action .jd-btn {
+  display: block;
+  border: 1px #ccc solid;
+  width: 120px;
+  padding: 5px 0px;
+  font-size: 13px;
+  color: #a1a1a3;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.jd-action .desc {
+  margin-top: 5px;
+  color: #636465;
+  font-size: 13px;
+}
+#video_preview {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 230px;
+}
+.footer{
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.footer .qun {
+  float: left;
+  margin-right: 50px;
+  width: 170px;
+}
+.footer .qun .item {
+  height: 90px;
+}
+.footer .qun img {
+  float: left;
+  width: 90px;
+}
+.footer .qun .desc {
+  float: left;
+  color: #636465;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.footer .qun .summary {
+  color: #6e6f70;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.footer .power-by {
+  float: right;
+  color: #6e6f70;
+  font-size: 13px;
+  text-align: center;
+}
+.footer .power-by img {
+  width: 95px;
+  position: relative;
+}
